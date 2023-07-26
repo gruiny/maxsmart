@@ -57,8 +57,8 @@ class MaxSmartDiscovery:
     def _validate_firmware_versions(devices):
         for device in devices:
             firmware_version = device.get('ver')
-            if firmware_version != '1.30':
-                raise ValueError(f"Device with IP {device['ip']} has firmware version {firmware_version}. This module has been tested with MaxSmart devices with firmware version 1.30.")
+            if firmware_version != '2.11':
+                raise ValueError(f"Device with IP {device['ip']} has firmware version {firmware_version}. This module has been tested with MaxSmart devices with firmware version 2.11.")
 
 class MaxSmartDevice:
     def __init__(self, ip):
