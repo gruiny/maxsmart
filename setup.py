@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='maxsmart',
-    version='0.1.8',
+    version='0.1.81',
     author='Akim Sissaoui',
     author_email='superkikim@sissaoui.com',
     description='A Python module for operating network connected power strips',
